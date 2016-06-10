@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-gpssettings" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>gpssettings</name>
+  <js-module name="gpssettings" src="www/gpssettings.js">
+    <clobbers target="gpssettings" />
+  </js-module>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="gpssettings">
+        <param name="ios-package" value="gpssettings" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/gpssettings.m" />
+  </platform>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="gpssettings">
+        <param name="android-package" value="com.albaresapps.plugins.gpssettings" />
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+    <source-file src="src/android/gpssettings.java" target-dir="src/com/albaresapps/plugins" />
+  </platform>
+</plugin>
