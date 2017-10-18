@@ -1,0 +1,19 @@
+{
+  "name": "cordova-native-gps-settings",
+  "version": "1.0.0",
+  "description": "This cordova plugin redirects the user to the settings menu on ios and android and can also kill the application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoMo1970/cordova-native-gps-settings.git"
+  },
+  "author": "John Moline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoMo1970/cordova-native-gps-settings/issues"
+  },
+  "homepage": "https://github.com/JoMo1970/cordova-native-gps-settings#readme"
+}
