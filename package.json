@@ -1,7 +1,7 @@
 {
   "name": "cordova-native-gps-settings",
   "version": "1.0.0",
-  "description": "This cordova plugin redirects the user to the settings menu on ios and android and can also kill the application",
+  "description": "This git encompasses a cordova plugin that will render the settings menu in Android and iOS via a cordova api call.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
